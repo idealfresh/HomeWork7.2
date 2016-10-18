@@ -19,9 +19,10 @@ public class Main {
 		}
 		for (int i = 0; i < massive.length; i++) {
 			for (int j = 0; j < massive[i].length; j++) {
-				System.out.println(massive[i][j]);
+				System.out.print(massive[i][j]+"\t");
 			}
-	}	
+	System.out.println();
+		}	
 
 }
 }
